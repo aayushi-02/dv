@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family:'Caudex',serif
+} 
+
+h1{
+    font-size: 90px;
+    margin-top: 0px;
+    font-family: 'Dancing Script', cursive;
+    color: #66BFBF;
+    line-height: 1;
+ }
+h2{
+    font-size:2.5rem;
+    font-family: 'Philosopher', sans-serif;
+    color: #66BFBF;
+}
+h3{
+    font-family: 'Philosopher', sans-serif;
+    color:  #11999E;
+}
+p{
+    line-height: 1;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color:  #66BFBF;
+    font-family:'Philosopher', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: cadetblue;
+}
+.top-container{
+    background-color: #F9F9F9;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0;
+  
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align:left ;
+}
+.bottom-container{
+    background-color:#F9F9F9; 
+    padding: 50px 0 60px;
+   
+}
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.bottom-cloud{
+   position: absolute; 
+   left: 400px;
+   bottom: 300pxS;
+
+}
+.footer-link{
+   color: #11999E;
+}
+.Top-image{
+   width: 15%;
+    float: left;
+}
+.Bottom-image{
+    width: 15%;
+    float:right;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.copyright{
+    color: #11999E ;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.btn {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Brush Script MT;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 32px;
+    background-color: #FFC1DB;
+    -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 0 1px 100px #000000;
+    border: solid #337FED 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 1px;
+    background: #ED96A2;
+    background-image: -webkit-linear-gradient(top, #ED96A2, #1E62D0);
+    background-image: -moz-linear-gradient(top, #ED96A2, #1E62D0);
+    background-image: -ms-linear-gradient(top, #ED96A2, #1E62D0);
+    background-image: -o-linear-gradient(top, #ED96A2, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #ED96A2, #1E62D0);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
